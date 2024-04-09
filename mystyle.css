@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+<div id="top"></div>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<style>
+    body{
+        background-image: url('jean.gif');
+        color: #ff004f;
+        font-size: 20px;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+    }
+    h1{
+        font-size:70px;
+        text-align: center;
+        font-style:italic;
+    }
+    .Letter{
+        text-align: center;
+        padding: 10px; /* Fixed a missing semicolon */
+        margin: 10px;
+        letter-spacing: 12px;
+        font-weight: bold;
+        font-size: 22px;
+       
+    }
+    .Letter a {
+        color:#ff004f; /* Set the color to red */
+        text-decoration: none; /* Remove underline */
+        transition: background-color 0.3s, color 0.3s; /* Add transition effect */
+    }
+
+    .Letter a:hover {
+        color: white; /* Maintain black color on hover */
+        background-color: black; /* Change background color on hover */
+    }   
+    .names{
+        margin: auto;
+        background: linear-gradient(45deg, black, black);
+            -webkit-text-fill-color: transparent;
+            -webkit-background-clip: text;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .name{
+        margin-left: 20px;
+        padding: 10px;
+    }
+
+    ul {
+        list-style-type: disc; /* Change the list style to disc */
+        margin-left: 20px; /* Adjust the margin for better alignment */
+    }
+
+    ul li:first-child {
+        padding-top: 20px;
+    }
+
+    ul li:last-child {
+        padding-bottom: 20px;
+    }
+
+    ul li:empty {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .icons {
+      color: #BDB76B;
+      font-size: 20px; /* Adjust the size of the icons */
+      margin-right: 5px; /* Adjust spacing between icons and letters */
+    }
+</style>
+</head>
+<body>
+    <h1>Related Links</h1>
+    <div class="Letter">
+        <a href="index.html" target="_self" class="icons"><i class="fas fa-home"></i></a>
+        <a href="#A">A</a>
+        <a href="#B">B</a>
+        <a href="#C">C</a>
+        <a href="#D">D</a>
+        <a href="#E">E</a>
+        <a href="#F">F</a>
+        <a href="#G">G</a>
+        <a href="#H">H</a>
+        <a href="#I">I</a>
+        <a href="#J">J</a>
+        <a href="#K">K</a>
+        <a href="#L">L</a>
+        <a href="#M">M</a>
+        <a href="#N">N</a>
+        <a href="#O">O</a>
+        <a href="#P">P</a>
+        <a href="#Q">Q</a>
+        <a href="#R">R</a>
+        <a href="#S">S</a>
+        <a href="#T">T</a>
+        <a href="#U">U</a>
+        <a href="#V">V</a>
+        <a href="#W">W</a>
+        <a href="#X">X</a>
+        <a href="#Y">Y</a>
+        <a href="#Z">Z</a>
+        <a href="#bottom" class="icons"><i class="fas fa-arrow-down"></i></a>
+    </div>
+    <div class="names">
+        <div class="name">
+            <div id= "A">A:</div>
+            <ul>
+                <li><a href = "https://www.facebook.com/profile.php?id=100090084955005">Aguaviva, Alexis Neil</a></li>
+                <!-- Add other names under A here -->
+            </ul>
+        </div>
+        <!-- Add other letter sections and names here -->
+    </div>
+    <div class="Letter">
+        <a href="aboutme.html" target="_self" class="icons"><i class="fas fa-home"></i></a>
+        <a href="#A">A</a>
+        <a href="#B">B</a>
+        <a href="#C">C</a>
+        <a href="#D">D</a>
+        <a href="#E">E</a>
+        <a href="#F">F</a>
+        <a href="#G">G</a>
+        <a href="#H">H</a>
+        <a href="#I">I</a>
+        <a href="#J">J</a>
+        <a href="#K">K</a>
+        <a href="#L">L</a>
+        <a href="#M">M</a>
+        <a href="#N">N</a>
+        <a href="#O">O</a>
+        <a href="#P">P</a>
+        <a href="#Q">Q</a>
+        <a href="#R">R</a>
+        <a href="#S">S</a>
+        <a href="#T">T</a>
+        <a href="#U">U</a>
+        <a href="#V">V</a>
+        <a href="#W">W</a>
+        <a href="#X">X</a>
+        <a href="#Y">Y</a>
+        <a href="#Z">Z</a>
+        <a href="#top" class="icons"><i class="fas fa-arrow-up"></i></a>
+        <div id="bottom"></div>
+    </div>
+</body>
+</html>
